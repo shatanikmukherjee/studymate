@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #080a10; --surface: #0f1219; --card: #13161f; --border: #1e2333;
+  --text: #e8eaf2; --muted: #6b7291; --accent: #4f8ef7;
+  --easy: #3ecf8e; --medium: #f7c948; --hard: #f76f6f;
+  --math: #4f8ef7; --physics: #a78bfa; --chemistry: #34d399; --english: #fb923c;
+}
+[data-theme="light"] {
+  --bg: #edeef2; --surface: #e4e5eb; --card: #f0f1f5;
+  --border: #d0d2de; --text: #1a1d2e; --muted: #6b7291;
+}
+* { box-sizing: border-box; transition: background-color 0.25s ease, border-color 0.2s ease; }
+body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; min-height: 100vh; }
+.font-mono { font-family: 'DM Mono', monospace; }
+.pill-high { background: rgba(62,207,142,0.12); color: #3ecf8e; }
+.pill-mid  { background: rgba(247,201,72,0.12);  color: #f7c948; }
+.pill-low  { background: rgba(247,111,111,0.12); color: #f76f6f; }
