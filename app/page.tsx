@@ -52,7 +52,7 @@ export default function HomePage() {
           Nail it.
         </h1>
         <p style={{ fontSize: '0.88rem', color: 'var(--muted)', maxWidth: 480, margin: '0 auto', lineHeight: 1.7 }}>
-          Interactive practice papers — scored, tracked, built for Canada's top universities.
+          Practice papers for Grades 9–12 — built for students aiming at Waterloo, Queens, and UofT
         </p>
       </div>
 
